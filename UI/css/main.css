@@ -1,0 +1,92 @@
+/*==================== BODY SECTION =====================*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Verdana, Helvetica, sans-serif Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+
+/*==================== BODY SECTION =====================*/
+
+
+/*==================== HEADINGS SECTION =====================*/
+
+.row1 {
+    position: relative;
+    /* Maximum width */
+    margin: 0 auto;
+    text-align: center;
+    background: #8B0000;
+    height: 600px;
+    color: blanchedalmond;
+    /* Center it */
+}
+
+.headings {
+    padding: 40px;
+    padding-top: 100px;
+}
+
+.row1 .content {
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    /* Grey text */
+    width: 100%;
+    /* Full width */
+    padding: 20px;
+    /* Some padding */
+}
+
+.row1 .btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: #dad5d5;
+    background-color: #8B4513;
+    width: 200px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.row1 .btn:hover {
+    background-color: rgb(70, 0, 0);
+}
+
+.btn:hover {
+    background-color: #d65050;
+    color: white;
+}
+
+
+/*==================== PORFOLIO SECTION =====================*/
+
+
+/*==================== FOOTER SECTION =====================*/
+
+footer {
+    background-color: #8B0000;
+    color: #f1f1f1;
+}
+
+
+/*==================== MEDIA QUERIES SECTION =====================*/
+
+@media only screen and (max-width: 600px) {}
