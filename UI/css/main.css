@@ -29,7 +29,7 @@ body {
     /* Maximum width */
     margin: 0 auto;
     text-align: center;
-    background: #8B0000;
+    background: rgb(70,0,0);
     height: 600px;
     color: blanchedalmond;
     /* Center it */
@@ -71,8 +71,8 @@ body {
 }
 
 .row1 .btn:hover {
-    background-color: rgb(70, 0, 0);
-    color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: rgb(70, 0, 0);
 }
 
 .btn:hover {
@@ -199,11 +199,21 @@ a:active {
     width: 70px;
 }
 
+.container-fluid{
+    color: #f1f1f1;
+}
+
+.container-fluid .row .col-sm-6 h1{
+    text-align: center;
+    color: #f1f1f1;
+    padding: 20px;
+}
+
 
 /*==================== FOOTER SECTION =====================*/
 
 footer {
-    background-color: #8B0000;
+    background-color: rgb(70,0,0);
     color: #f1f1f1;
     font-size: 14px;
     text-decoration: none;
