@@ -485,6 +485,45 @@ a:active {
 }
 
 
+/* Newsletter */
+
+.newsletter {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 30px;
+}
+
+.newsletter .content .form-control {
+    height: 50px;
+    background-color: #f2f2f2;
+    border-radius: 0;
+}
+
+.newsletter .content.form-control:focus {
+    box-shadow: none;
+}
+
+.newsletter .content .btn {
+    min-height: 50px;
+    border-radius: 0;
+    background: rgb(70, 0, 0);
+    color: #fff;
+    font-weight: 600;
+}
+
+
 /*==================== FOOTER SECTION =====================*/
 
 footer {
@@ -495,7 +534,19 @@ footer {
 }
 
 footer a {
-    color: #f1f1f1;
+    color: #f1f1f19d;
+}
+
+footer p {
+    color: #f1f1f19d;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer i:hover {
+    color: #f1f1f19d;
 }
 
 
