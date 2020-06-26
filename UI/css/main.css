@@ -18,6 +18,11 @@ body {
     color: #ffffff;
 }
 
+.auth-nav .nav-link {
+    font-size: 14px;
+    color: #243c4f;
+}
+
 
 /*==================== BODY SECTION =====================*/
 
@@ -39,46 +44,66 @@ body {
     padding: 40px;
     padding-top: 40px;
     padding-bottom: 0;
+    line-height: 40px;
 }
 
 .row1 .content {
     position: absolute;
     bottom: 0;
     text-align: left;
-    /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0);
-    /* Fallback color */
     background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
     color: #f1f1f1;
-    /* Grey text */
     width: 100%;
-    /* Full width */
     padding: 20px;
-    /* Some padding */
+    line-height: 32px;
 }
 
-.row1 .btn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
-    color: #dad5d5;
-    background-color: #8B4513;
+.button {
+    text-align: center;
     width: 200px;
+    color: #fff;
+    border-radius: 5px;
+    background: rgb(70, 0, 0);
+    border: 1px solid #fff;
+    padding: 12px;
+    font-size: 26px;
     cursor: pointer;
-    font-size: 20px;
-    border-radius: 2px;
+    transition: all 0.5s;
+    margin: 7% auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.row1 .btn:hover {
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button:active {
     background-color: #f1f1f1;
-    color: rgb(70, 0, 0);
-}
-
-.btn:hover {
-    background-color: #d65050;
-    color: white;
+    color: #000;
+    transform: translateY(4px);
 }
 
 
