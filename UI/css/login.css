@@ -88,8 +88,7 @@ input:focus {
 
 /*snack bar css*/
 
-
-/* #snackbar {
+#snackbar {
     visibility: hidden;
     min-width: 250px;
     margin-left: -125px;
@@ -110,7 +109,7 @@ input:focus {
     visibility: visible;
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
-} */
+}
 
 
 /*==================== MEDIA QUERIES SECTION =====================*/
