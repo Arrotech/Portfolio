@@ -67,58 +67,72 @@
             </div>
         </nav>
     </div>
-<div class="container">
-<div class="sign-up">
-<!-- Default form register -->
-<form class="text-center border border-light p-5" action="#!">
+    <div class="container">
+        <div class="sign-up">
+            <!-- Default form register -->
+            <form id="postSignup" class="text-center border border-light p-5" action="#!">
 
-    <p class="h4 mb-4">Sign up</p>
+                <p class="h4 mb-4">Sign up</p>
 
-    <div class="form-row mb-4">
-        <div class="col">
-            <!-- First name -->
-            <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
-        </div>
-        <div class="col">
-            <!-- Last name -->
-            <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
-        </div>
-    </div>
+                <div class="form-row mb-4">
+                    <div class="col">
+                        <!-- First name -->
+                        <input id="firstname" type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <!-- Last name -->
+                        <input id="lastname" type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
 
-    <!-- E-mail -->
-    <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+                <div class="form-row mb-4">
+                    <div class="col">
+                        <!-- Username  -->
+                        <input id="username" type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Username">
+                    </div>
+                    <div class="col">
+                        <!-- Phone -->
+                        <input id="phone" type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Phone">
+                    </div>
+                </div>
 
-    <!-- Password -->
-    <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
-    <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                <!-- E-mail -->
+                <input id="email" type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="Email">
+
+                <!-- Password -->
+                <input id="password" type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock"><br>
+
+                <input id="confirm_password" type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Confirm Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+
+                <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
         At least 8 characters and 1 digit
     </small>
 
-    <!-- Phone number -->
-    <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                <!-- Sign up button -->
+                <button class="btn-color" onclick="callToast()" type="submit">Sign Up</button>
 
-    <!-- Sign up button -->
-    <button class="btn-color" type="submit">Sign Up</button>
+                <!-- Social register -->
+                <p>or sign up with:</p>
 
-    <!-- Social register -->
-    <p>or sign up with:</p>
+                <a href="#" class="mx-2" role="button"><i class="fa fa-facebook-f light-blue-text"></i></a>
+                <a href="#" class="mx-2" role="button"><i class="fa fa-twitter light-blue-text"></i></a>
+                <a href="#" class="mx-2" role="button"><i class="fa fa-github light-blue-text"></i></a>
 
-    <a href="#" class="mx-2" role="button"><i class="fa fa-facebook-f light-blue-text"></i></a>
-    <a href="#" class="mx-2" role="button"><i class="fa fa-twitter light-blue-text"></i></a>
-    <a href="#" class="mx-2" role="button"><i class="fa fa-github light-blue-text"></i></a>
+                <hr>
 
-    <hr>
+                <!-- Terms of service -->
+                <p>
+                    <em>Already</em> have an account
+                    <a href="login.html" target="_blank">Login</a></p>
 
-    <!-- Terms of service -->
-    <p>
-        <em>Already</em> have an account
-        <a href="login.html" target="_blank">Login</a>
+                <div id="snackbar">Just a momemnt...</div>
+                <script type="text/javascript" src="js/register.js"></script>
 
-</form>
-</div>
-<!-- Default form register -->
-</div>
-<!-- Material form register -->
+            </form>
+        </div>
+        <!-- Default form register -->
+    </div>
+    <!-- Material form register -->
 
 </body>
 
