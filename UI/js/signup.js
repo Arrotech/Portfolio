@@ -51,6 +51,7 @@ function postSignup(event) {
                     localStorage.setItem('user', data.user);
                     localStorage.setItem('token', data.token);
                     localStorage.setItem('email', data.user.email);
+                    localStorage.setItem('username', data.user.username);
                     onSuccess('Account created successfully!');
                     window.location.replace('login.html');
                 } else {

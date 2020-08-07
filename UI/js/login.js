@@ -35,11 +35,11 @@ function postLogin(event) {
             if (status === '200') {
                 localStorage.setItem('user', data.user);
                 localStorage.setItem('token', data.token);
-                localStorage.setItem('admission_no', data.user.admission_no);
+                localStorage.setItem('username', data.user.username);
                 localStorage.setItem('user_id', data.user.user_id);
                 localStorage.setItem('email', data.user.email);
                 onSuccess('Signed in successfully');
-                window.location.replace('https://portal56.docs.apiary.io/');
+                window.location.replace('user.html');
                 console.log(data.user.admission_no)
             } else {
                 raiseError(message);
