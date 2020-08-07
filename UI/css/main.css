@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Verdana, Helvetica, sans-serif Verdana, Geneva, Tahoma, sans-serif;
+    background: #fff;
 }
 
 * {
@@ -34,7 +35,7 @@ body {
     /* Maximum width */
     margin: 0 auto;
     text-align: center;
-    background: rgb(70, 0, 0);
+    background: rgb(100, 0, 0);
     color: blanchedalmond;
     /* Center it */
 }
@@ -115,11 +116,34 @@ body {
 }
 
 
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@ MODAL POP UP @@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.modal {
+    color: #000;
+}
+
+.modal-body {
+    color: #000;
+    text-align: left;
+    line-height: 20px;
+}
+
+.modal .modal-footer .btn-login {
+    background: rgb(100, 0, 0);
+    border: none;
+}
+
+.modal .modal-footer .btn-signup {
+    background: rgb(10, 0, 0);
+    border: none;
+}
+
+
 /*==================== ABOUT US SECTION =====================*/
 
 .aboutus-section {
     padding: 90px 0;
-    background-color: #f1f1f1;
+    background-color: #fff;
 }
 
 .aboutus-title {
@@ -130,7 +154,7 @@ body {
     padding: 0 0 11px;
     position: relative;
     text-transform: uppercase;
-    color: #000;
+    color: rgb(100, 0, 0);
 }
 
 .aboutus-title::after {
@@ -176,7 +200,7 @@ a:active {
 }
 
 .feature .feature-box .iconset {
-    background: #f1f1f1 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     float: left;
     position: relative;
     width: 18%;
@@ -519,11 +543,21 @@ a:active {
 }
 
 
+/* @@@@@@@@@@@@@@@@@@@@@@@ GET STARTED @@@@@@@@@@@@@@@@@@ */
+
+.get-started {
+    background: rgb(100, 0, 0);
+    text-align: center;
+    margin: 0;
+}
+
+
 /* Newsletter */
 
 .newsletter {
     padding: 40px 0;
     background: #f1f1f1;
+    margin: 0;
 }
 
 .newsletter .content {
@@ -565,6 +599,7 @@ footer {
     color: #f1f1f1;
     font-size: 14px;
     text-decoration: none;
+    margin: 0;
 }
 
 footer a {
