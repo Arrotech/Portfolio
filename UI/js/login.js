@@ -38,7 +38,7 @@ function postLogin(event) {
                 localStorage.setItem('admission_no', data.user.admission_no);
                 localStorage.setItem('user_id', data.user.user_id);
                 localStorage.setItem('email', data.user.email);
-                onSuccess('Signed in successfully!');
+                onSuccess('Signed in successfully');
                 window.location.replace('https://portal56.docs.apiary.io/');
                 console.log(data.user.admission_no)
             } else {
