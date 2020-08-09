@@ -48,6 +48,10 @@ body {
     color: #f1f1f1;
 }
 
+.headings p {
+    line-height: 28px;
+}
+
 .pre-text {
     text-align: center;
     white-space: pre-wrap;
